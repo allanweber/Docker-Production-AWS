@@ -28,3 +28,8 @@
 
 [App Sample - http://escoffier.me/vertx-hol/](http://escoffier.me/vertx-hol/)
 
+## Projects
+
+[Microtrader](https://github.com/allanweber/microtrader)
+
+[Microtrader-base](https://github.com/allanweber/microtrader-base)
