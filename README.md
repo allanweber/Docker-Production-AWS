@@ -1,5 +1,17 @@
 # AWS With Docker
 
+#IAM Best Practicies
+* TWO factor authentications
+* Assign prevvilegies to IAM roles, then IAM roles to groups
+  * IAM role includes policies to allows access to AWS resources
+  * This allows temporary user elevations access
+
+* Create account alias
+  * IAM > customize > create alias (allan-alias)
+* Create IAM role (admin)
+  * Another Account > Accouint ID - flag MFA > AdministratorAccess
+  
+  
 ## Prerequisites Packages
 
 `pip3 install ansible`
