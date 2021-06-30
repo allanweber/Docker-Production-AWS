@@ -1,6 +1,6 @@
 # AWS With Docker
 
-#IAM Best Practicies
+# IAM Best Practicies
 * TWO factor authentications
 * Assign prevvilegies to IAM roles, then IAM roles to groups
   * IAM role includes policies to allows access to AWS resources
@@ -11,6 +11,17 @@
 * Create IAM role (admin)
   * Another Account > Accouint ID - flag MFA > AdministratorAccess
   
+# AWS CLI
+* pip install awscli
+* AWS console > IAM > User > Create access key
+* Add to .bash, .zshrc or etc: `export PATH=~/.local/bin:$PATH`
+* `source ~/.zshrc`
+* `export AWS_PROFILE=allan-aws-free-admin`
+* `aws configure`
+* Test access: `aws ec2 describe vpcs`
+
+# ECR
+* 
   
 ## Prerequisites Packages
 
