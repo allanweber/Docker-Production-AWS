@@ -54,6 +54,20 @@
 * Get cluster info: `curl -s localhost:51678/v1/metadata | jq`
 * Show ECS services or tasks: `curl -s localhost:51678/v1/tasks | jq`
 
+#### ECS Task
+
+* Wizard is easy just add the repo of the image, set tasks counts to define the number of running containers and env variables
+
+### Customize ECS Container Instances
+
+* Use [Packer](https://learn.hashicorp.com/tutorials/packer/get-started-install-cli) to create custom AMI
+
+<img src="./img/2.png" width="50%" height="50%"/>
+
+* The packer template is in a new repo and is called packer-ecs
+* Check the most recent ECS AMI image [https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html)
+* For eu-central-1 is: ami-0b440d17bfb7989dc
+
 ## OLDER Prerequisites Packages
 
 `pip3 install ansible`
