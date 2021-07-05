@@ -75,6 +75,11 @@ output = json
 * `aws configure`
 * Test access: `aws ec2 describe-vpcs`
 
+### CLI Tips
+
+* Apply a role manually: `aws sts assume-role --role-arn arn:aws:iam::103162649456:role/Admin --role-session-name allan.weber`
+* Unset variables: `unset AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY AWS_SESSION_TOKEN`
+
 ## ECS
 
 <img src="./img/1.png" width="50%" height="50%"/>
